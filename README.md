@@ -39,27 +39,10 @@ Ensure you have the following installed:
 - SentencePiece
 - Fairseq (for NLLB)
 
-### Steps to Run
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/yourrepo.git
-   cd yourrepo
-   ```
-
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Run the pipeline:
-   ```sh
-   python main.py --input tweet.txt
-   ```
-
 ## Results
-- Achieved **high accuracy in predominant language detection**.
+- **predominant language detection on Code-Mixed texts**.
 - **Improved translation quality** using NLLB.
-- **State-of-the-art performance in NER** for Indic languages.
+- **High performance in NER** for Indic languages.
 
 ## Future Improvements
 - Extend NER to cover more Indic languages.
