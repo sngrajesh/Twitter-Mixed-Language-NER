@@ -39,8 +39,21 @@ Ensure you have the following installed:
 - 📜 SentencePiece
 - 🎭 Fairseq (for NLLB)
 
+## 🛠️ Implementation & Tools
+- **Languages & Frameworks: Python 3.8+, PyTorch/TensorFlow, Hugging Face Transformers, SentencePiece, and Fairseq.**
+- **Web Deployment: The project is deployed as a Flask web application, which serves as the user interface for real-time processing of code-mixed tweets. The Flask app loads the fine-tuned mBERT, NLLB, and 
+     IndicBERT models and exposes a RESTful API for users to submit tweets and retrieve predictions.**
+- **Development Platforms: Developed using Python, Jupyter Notebook, and Google Colab.**
+- **Hardware Configuration: Tested on systems with NVIDIA RTX 3050Ti GPU, 16 GB RAM, and a Quad-core CPU.**
+
+## 🚀 API Deployment with Flask
+Our integrated Flask application enables seamless real-time analysis:
+
+- **User Interface: Provides a web-based form for users to input tweets.**
+- **Model Serving: Upon receiving an input, the Flask API sequentially applies language detection, translation, and NER to return structured results.**
+
 ## 📈 Results
-- **✅ High accuracy in predominant language detection on Code-Mixed texts**.
+- **✅ Predominant language detection on Code-Mixed texts**.
 - **🌟 Improved translation quality** using NLLB.
 - **🚀 High performance in NER** for Indic languages.
 
